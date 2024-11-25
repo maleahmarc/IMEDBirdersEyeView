@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5em;
+    background-color: #8eacd9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family:"Montserrat", sans-serif;
+    color: #252942;
+    cursor: pointer;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #006884;
+    font-size: 25px;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #252942;
+    font-size: 25px; 
+
+}
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393f68;
+    text-decoration: none;
+}
+button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    height: 60px;
+    margin-left: 1em;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li :hover{
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+button{
+    padding: 9px 25px;
+    background-color: #006884;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+} 
+button:hover{
+    background-color: #006784be;
+}
+img:not(.logo, .tablepic){
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item2 p{
+    font-size: 2vw;
+    padding: 50px;
+}
+.item3 p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #252942;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.529);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+    margin-right: 40px;
+}
+.item4 {
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 75px;
+}
+.container1 {
+    display: grid;
+    grid-template-rows: 200px 100px 50px 50px 50px 50px;
+    grid-column: 200px 100px 50px 50px;
+    margin: 30px 100px 10px 100px;
+    padding: 2em;
+    border-radius: 10px;
+    background-image: url(Images/sky2.jpg);
+}
+.item1{
+    grid-row: 1 / 7;
+    grid-column: 1 / 2;
+   
+}
+.item2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+   
+}
+.item3{
+    grid-row: 3 / 5;
+    grid-column: 3 / 4;
+
+}
+.item4 {
+    grid-row: 5 / 7;
+    grid-column: 3 / 4;
+    
+}
+
+
+.container2 {
+    display: grid;
+    grid-row: 50px 100px 100px;
+    grid-column: 1fr 1fr 1fr 1fr ;
+    background-color: #edf0f1;
+    margin: 30px 100px 10px 100px;
+    column-gap: 10px;
+    padding: 1em;
+}
+.container2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+    border-radius: 10px;
+}
+
+.thing2 p{
+    font-family: "Montserrat", sans-serif;
+    line-height: 2em
+
+}
+.thing1{
+    grid-row: 1 / 2;
+    grid-column: 1fr;
+}
+.thing2{
+    grid-row: 2 / 3;
+    grid-column: 1fr;
+}
+.thing3{
+    grid-row: 1 / 4;
+    grid-column: 1fr;
+}
+.thing4{
+    grid-row: 1 / 4;
+    grid-column: 1fr;
+}
+.thing5{
+    grid-row: 1 / 4;
+    grid-column: 1fr;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.text1 {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+.photo1{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.container5 img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: fill;
+}
+.container6{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(Images/sky2.jpg)
+}
+main.Table {
+    width: 82vw;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.288);
+    
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem  ;
+    border-radius: .8rem;
+
+    overflow: hidden;
+    
+}
+
+.table__header { 
+    justify-content: center;
+
+}
+.table__body {
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: aliceblue;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+}
+.table__body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.401);
+    visibility: hidden;
+}
+.table__body:hover:-webkit-scrollbar-thumb{
+    
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+
+}
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(61, 95, 175, 0.433);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(61, 95, 175, 0.09);
+
+}
