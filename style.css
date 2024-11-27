@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+    background-color: #e2dfd8;
+}
 header {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +28,9 @@ h3{
     font-weight: bold;
     color: #252942;
     font-size: 25px; 
-
+}
+p{
+    font-family: "Montserrat", sans-serif;
 }
 li, a{
     font-family: "Montserrat", sans-serif;
@@ -134,7 +139,7 @@ img:not(.logo, .tablepic){
     display: grid;
     grid-row: 50px 100px 100px;
     grid-column: 1fr 1fr 1fr 1fr ;
-    background-color: #edf0f1;
+    background-color: #edf0f19a;
     margin: 30px 100px 10px 100px;
     column-gap: 10px;
     padding: 1em;
@@ -291,4 +296,52 @@ thead th{
 tbody tr:nth-child(even) {
     background-color: rgba(61, 95, 175, 0.09);
 
+}
+.contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    font-family:"Montserrat", sans-serif;
+}
+
+.contactform form {
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box .input-field {
+    width: 45%;
+
+}
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #006884;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 12px 0;
+    color:#252942
+} 
+
+.field .item::placeholder {
+    color: #393f68;
+}
+.field .error-txt {
+    font-size: 14.5px;
+    display: none;
+    color: brown;
+    text-align: left;
+    margin: -5px 0 10px
+}
+form .textarea-field .item {
+    resize: none;
+}
+form .textarea-field .error-txt {
+    margin-top: -10px;
 }
