@@ -175,16 +175,15 @@ img:not(.logo, .tablepic, .blogimgs) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
 }
 .container4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin: 1.5em;
 }
 .text1 {
-  margin: 1rem 4rem;
+  margin: 1rem;
   line-height: 200%;
 }
 .photo1 {
