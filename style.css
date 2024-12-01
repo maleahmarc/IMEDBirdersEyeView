@@ -190,7 +190,6 @@ img:not(.logo, .tablepic, .blogimgs) {
 .photo1 {
   margin-left: 10em;
   margin-right: 10em;
-  max-width: 100%;
 }
 .container5 {
   display: flex;
