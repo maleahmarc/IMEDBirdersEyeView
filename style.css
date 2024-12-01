@@ -184,14 +184,13 @@ img:not(.logo, .tablepic, .blogimgs) {
   margin: 50px;
 }
 .text1 {
-  margin-left: 20em;
-  margin-right: 20em;
-  margin-bottom: 2em;
-  line-height: 2em;
+  margin: 1rem 4rem;
+  line-height: 200%;
 }
 .photo1 {
   margin-left: 10em;
   margin-right: 10em;
+  max-width: 100%;
 }
 .container5 {
   display: flex;
@@ -200,6 +199,7 @@ img:not(.logo, .tablepic, .blogimgs) {
   gap: 10px;
   margin-left: 10em;
   margin-right: 10em;
+  max-width: 100%;
 }
 .container5 img {
   max-width: 100%;
