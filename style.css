@@ -121,6 +121,7 @@ button:hover {
   border-radius: 10px;
   padding: 2rem;
 }
+
 .item1 img {
   width: auto;
   height: 20rem;
@@ -142,7 +143,29 @@ button:hover {
   display: block;
   width: 100%;
 }
-
+@media screen and (max-width: 650px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  .item2 {
+    font-size: 0.75em;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -1px;
+    font-stretch: expanded;
+  }
+}
+@media screen and (max-width: 650px) {
+  .item1 img {
+    border-radius: 10px;
+    width: 14rem;
+    height: auto;
+    justify-content: center;
+  }
+}
 .container2 {
   display: flex;
   flex-direction: row;
