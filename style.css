@@ -161,7 +161,7 @@ button:hover {
 @media screen and (max-width: 650px) {
   .item1 img {
     border-radius: 10px;
-    width: 14rem;
+    width: 10rem;
     height: auto;
     justify-content: center;
   }
